@@ -6,19 +6,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/redfondo">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
         android:textColor="@color/colortitulo"
         android:text="Hola Mundo! con Kotlin"
+        android:layout_marginTop="20dp"
         />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="444dp"
         android:layout_height="444dp"
-        app:srcCompat="@drawable/blanca" />
+        app:srcCompat="@drawable/blanca"
+        android:layout_gravity="center"
+        />
 
 </LinearLayout>
