@@ -17,5 +17,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         println("Hola mundo desde Kotlin")
+        //Declaracion con val,
+        val PI:Double= 3.1416
+        println("Valor de PI" + PI)
+
     }
 }
