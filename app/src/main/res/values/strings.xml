@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Hello_World_Kotlin</string>
+    <string name="apptitulo">Hola Mundo! con Kotlin</string>
+    <string name="app_mensaje">Mi primera App con Kotlin</string>
+
 </resources>
