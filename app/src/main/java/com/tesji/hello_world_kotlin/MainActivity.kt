@@ -22,8 +22,14 @@ class MainActivity : AppCompatActivity() {
         println("Valor de PI=" + PI)
         //var
         var edad: Int = 20
+        //var edad = 15
+        //ambito y su alance donde va vivir
+         if (true){
+            var edad=17
+            println("Edad=" + edad)
+        }
         edad = edad + 1
-        println("Edad=" + edad)
+
 
 
     }
