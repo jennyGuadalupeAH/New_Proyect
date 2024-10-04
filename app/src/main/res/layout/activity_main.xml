@@ -8,23 +8,37 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@color/redfondo">
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:layout_marginTop="40dp"
+         android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="97dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/blanca" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="16sp"
+             android:layout_margin="20sp"
+             android:textAlignment="center"
+             android:textColor="@color/colortitulo"
+             android:text="Hola Mundo! con Kotlin"
+             android:layout_marginTop="20dp"
+             />
+
+
+ </LinearLayout>
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:textColor="@color/colortitulo"
-        android:text="Hola Mundo! con Kotlin"
-        android:layout_marginTop="20dp"
-        />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="444dp"
-        android:layout_height="444dp"
-        app:srcCompat="@drawable/blanca"
-        android:layout_gravity="center"
-        />
+        android:text="TextView" />
 
 </LinearLayout>
